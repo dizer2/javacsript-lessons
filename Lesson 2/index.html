@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+
+    <script>
+        //        let a = 1.4;
+        //        let b = -45;
+        //        let likeSweet = false;        
+        //        let s =  `ias ads na asd ${a+b}`;
+        //        
+        //        console.log(2/likeSweet);
+
+
+
+        //        let a = 5;
+        //        let  b = 10;
+        //        let c = 10;
+        //        
+        //        console.log(a>=b);
+        //        console.log(a<=b);
+        //        
+        //        console.log(a<=c);
+        //        
+        //        console.log(a!=b);
+        //        
+        //    
+        //        let a = 'Vitalik';
+        //        let b = 'Yura';
+        //        let c = 5;
+        //        
+        //        console.log(a+c);
+        //        
+
+
+        //        let a = '1';
+        //        let b = 1;
+        //        
+        //        console.log(a===b);
+
+
+
+
+        //        let isRobot = confirm(`Are you robot`);
+        //        if (isRobot == true) {
+        //            alert(`Hello Robot`);
+        //        } else {
+        //            alert(`You are not robot`);
+        //        }
+
+
+        //        let n = prompt(`введи число`);
+        //        if (n > 0) {
+        //            console.log(`число більше за 0`);
+        //        } else if (n < 0) {
+        //            console.log(`число менше за 0`);
+        //        } else {
+        //            console.log(`Число рівне 0`);
+        //        }
+
+        //        
+        //        let n = prompt(`Введи число`);
+        //        
+        //        if(n%2==0){
+        //            console.log(`Число парне`);
+        //        } else{
+        //             console.log(`Число непарне`);
+        //        }
+
+
+        let userLogin = 'admin';
+        let userPassword = '0000';
+
+        let login = prompt('введи логін');
+        let password = prompt('введи пароль');
+
+        if (userLogin == login && userPassword == password) {
+            console.log('вхід виконано')
+        } else {
+            if (userLogin == login && userPassword != password) {
+                console.log('пароль невірний');
+            } else if (userLogin != login && userPassword != password) {
+                console.log('користувача не знайдено');
+            }
+        }
+
+
+        //        1. вхід виконано
+        //        2. неправильний пароль
+        //        3. користувача не знайдено 
+    </script>
+
+</body></html>
