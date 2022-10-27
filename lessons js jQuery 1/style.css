@@ -1,0 +1,134 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+/* .box{
+	width: 100px;
+	height: 100px;
+	background-color: orange;
+}
+.white{
+	color: white;
+} */
+
+.wrap{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+.header{
+width: 100%;
+height: 12vh;
+display: flex;
+align-items: center;
+flex-direction: column;
+position: relative;
+
+
+}
+.btns{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 10vh;
+
+}
+
+.controlContainer{
+	width: 100%;
+	height: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center
+}
+
+.arrow img{
+	width: 30px;
+	transition: 0.2s;
+	
+}
+
+.rotate{
+	filter: rotate(17-deg);
+}
+
+
+
+
+.main{
+	width: 100%;
+		height: 90%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.box{
+	width: 300px;
+	height: 450px;
+	background-color: rgb(133, 34, 130);
+	border-radius: 10px;
+
+
+}
+.header__box{
+	width: 100%;
+	height: 20%;
+	display: flex;
+	justify-content: flex-end;
+	padding-top: 20px;
+	padding-right: 30px;
+}
+
+.kollo{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	margin: 5px;
+	cursor: pointer;
+}
+.green{
+	background-color: green;
+}
+.yellow{
+	background-color: yellow;
+}
+.red{
+	background-color: red;
+}
+.main_box{
+	width: 100%;
+	height: 80%;
+	padding: 30px;
+	font-size: 14px;
+	font-family: monospace;
+	color: #fff;
+}
+
+
+button{
+	border: none;
+	box-shadow: 0 0 5px #999;
+	background-color: #fff;
+	padding: 10px 30px;
+	color: #333;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.2s;
+
+
+}
+button:hover{
+	background-color: rgb(105, 169, 253);
+	transition: 0.2s;
+	color: #fff;
+
+	
+}
+
+
